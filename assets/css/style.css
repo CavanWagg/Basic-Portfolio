@@ -42,8 +42,16 @@ footer {
     width: 270px;
     float: left;
 }
-
-
+.image-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-center {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+}
 
 
 
