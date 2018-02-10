@@ -1,0 +1,59 @@
+
+body {
+    background: url('/Users/cavanwagg/Desktop/Basic-Portfolio/assets/images/symphony.png'); 
+}
+.container {
+    width: 960px;
+    position: relative;
+}
+
+
+.header-nav {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+main {
+    width: 650px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+p {
+    color: #777777;
+}
+
+main,
+footer {
+    font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.sidebar {
+    position: absolute;
+    right: 0px;
+    width: 270px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    
+    background-color: #666666;
+}
