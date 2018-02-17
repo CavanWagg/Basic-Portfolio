@@ -10,14 +10,20 @@
     --primary-font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;`
     
 }
+html {
+    height: 100%;
+}
+
 
 body {
+    position: relative;
     background: url('../images/symphony.png'); 
     line-height: 1.5;
     margin: 0;
-    padding: 0;
-    
+    padding-bottom: 200px;
+    min-height: 100%;
 }
+
 nav {
     margin: 0 auto;
     position: relative;
@@ -82,7 +88,8 @@ li:hover {
 
 }
 
-.about {
+.about,
+.contact {
     width: 590px;
     padding: 30px;
     margin: auto;
@@ -92,6 +99,7 @@ li:hover {
 
 .prof-pic,
 .about,
+.contact,
 .sidebar {
     float: left;
 }
@@ -101,8 +109,7 @@ li:hover {
     height: 200px;
 }
 
-main,
-footer {
+main {
     position: relative;
     font-family: var(--primary-font);
 }
@@ -141,7 +148,7 @@ footer {
 }
 footer p {
     padding-top: 22px;
-    color: var(--font-color);
+    color: #cccccc;
 }
 ul {
     margin-top: 28px;
@@ -172,4 +179,25 @@ color: var(--font-color);
 .sidebar h2 {
     font-size: 20px;
 }
-
+/* exclusive to Contact page */
+form {
+    color: var(--font-color);
+}
+label {
+    margin-left: 10px;
+}
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 15px;
+}
+textarea[name=message], select {
+    width: 90%;
+    margin: 15px;
+}
+input[type=submit], select {
+    background-color: var(--teal);
+    padding: 15px 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
